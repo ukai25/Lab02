@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2-4</title>
+</head>
+    <style>
+        #table {
+            width: 70%;
+        }
+        #table td, #table th {
+            padding: 3px;
+        }
+        #table th{
+            text-align: left;
+        }
+    </style>
+<body>
+    <h1>
+        Premier League Table 2021-22
+    </h1>
+    <table id="table">
+        <tr>
+            <th>Club</th>
+            <th>MP</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>GF</th>
+            <th>GA</th>
+            <th>GD</th>
+            <th>Pts</th>
+            <th>Last 5</th>
+        </tr>
+        <tr><!-- Man City -->
+            <td align="left">1&ensp;<img src="t1.png" height="25" align="center">&ensp; Man City</td>
+            <td>23</td>
+            <td>18</td>
+            <td>3</td>
+            <td>2</td>
+            <td>55</td>
+            <td>14</td>
+            <td>41</td>
+            <td>57</td>
+            <td><img src="D.svg">
+                <img src="W.svg">
+                <img src="W.svg">
+                <img src="W.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Liverpool -->
+            <td align="left">2&ensp;<img src="t2.png" height="25" align="center">&ensp;Liverpool</td>
+            <td>22</td>
+            <td>14</td>
+            <td>6</td>
+            <td>2</td>
+            <td>58</td>
+            <td>19</td>
+            <td>39</td>
+            <td>48</td>
+            <td><img src="W.svg">
+                <img src="W.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="D.svg"></td>
+        </tr>
+        <tr><!-- Chelsea -->
+            <td align="left">3&ensp;<img src="t3.png" height="25" align="center">&ensp;Chelsea</td>
+            <td>24</td>
+            <td>13</td>
+            <td>8</td>
+            <td>3</td>
+            <td>48</td>
+            <td>18</td>
+            <td>30</td>
+            <td>47</td>
+            <td><img src="W.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="D.svg">
+                <img src="D.svg"></td>
+        </tr>
+        <tr><!-- Man United -->
+            <td align="left">4&ensp;<img src="t4.png" height="25" align="center">&ensp;Man United</td>
+            <td>22</td>
+            <td>11</td>
+            <td>5</td>
+            <td>6</td>
+            <td>36</td>
+            <td>30</td>
+            <td>6</td>
+            <td>38</td>
+            <td><img src="W.svg">
+                <img src="W.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- West Ham -->
+            <td align="left">5&ensp;<img src="t5.png" height="25" align="center">&ensp;West Ham</td>
+            <td>23</td>
+            <td>11</td>
+            <td>4</td>
+            <td>8</td>
+            <td>41</td>
+            <td>31</td>
+            <td>10</td>
+            <td>37</td>
+            <td><img src="L.svg">
+                <img src="L.svg">
+                <img src="W.svg">
+                <img src="W.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Arsenal -->
+            <td align="left">6&ensp;<img src="t6.png" height="25" align="center">&ensp;Arsenal</td>
+            <td>21</td>
+            <td>11</td>
+            <td>3</td>
+            <td>7</td>
+            <td>33</td>
+            <td>25</td>
+            <td>8</td>
+            <td>36</td>
+            <td><img src="D.svg">
+                <img src="L.svg">
+                <img src="W.svg">
+                <img src="W.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Tottenham -->
+            <td align="left">7&ensp;<img src="t7.png" height="25" align="center">&ensp;Tottenham</td>
+            <td>20</td>
+            <td>11</td>
+            <td>3</td>
+            <td>6</td>
+            <td>26</td>
+            <td>24</td>
+            <td>2</td>
+            <td>36</td>
+            <td><img src="L.svg">
+                <img src="W.svg">
+                <img src="W.svg">
+                <img src="D.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Wolves -->
+            <td align="left">8&ensp;<img src="t8.png" height="25" align="center">&ensp;Wolves</td>
+            <td>21</td>
+            <td>10</td>
+            <td>4</td>
+            <td>7</td>
+            <td>19</td>
+            <td>16</td>
+            <td>3</td>
+            <td>34</td>
+            <td><img src="W.svg">
+                <img src="W.svg">
+                <img src="W.svg">
+                <img src="D.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Brighton -->
+            <td align="left">9&ensp;<img src="t9.png" height="25" align="center">&ensp;Brighton</td>
+            <td>22</td>
+            <td>6</td>
+            <td>12</td>
+            <td>4</td>
+            <td>23</td>
+            <td>23</td>
+            <td>0</td>
+            <td>30</td>
+            <td><img src="D.svg">
+                <img src="D.svg">
+                <img src="D.svg">
+                <img src="W.svg">
+                <img src="D.svg"></td>
+        </tr>
+        <tr><!-- Leicester City -->
+            <td align="left">10&ensp;<img src="t10.png" height="25" align="center">&ensp;Leicester City</td>
+            <td>20</td>
+            <td>7</td>
+            <td>5</td>
+            <td>8</td>
+            <td>34</td>
+            <td>37</td>
+            <td>-3</td>
+            <td>26</td>
+            <td><img src="D.svg">
+                <img src="L.svg">
+                <img src="W.svg">
+                <img src="L.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Aston Villa -->
+            <td align="left">11&ensp;<img src="t11.png" height="25" align="center">&ensp;Aston Villa</td>
+            <td>21</td>
+            <td>8</td>
+            <td>2</td>
+            <td>11</td>
+            <td>28</td>
+            <td>32</td>
+            <td>-4</td>
+            <td>26</td>
+            <td><img src="W.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="L.svg">
+                <img src="W.svg"></td>
+        </tr> 
+        <tr><!-- Southampton -->
+            <td align="left">12&ensp;<img src="t12.png" height="25" align="center">&ensp;Southampton</td>
+            <td>22</td>
+            <td>5</td>
+            <td>10</td>
+            <td>7</td>
+            <td>26</td>
+            <td>34</td>
+            <td>-8</td>
+            <td>25</td>
+            <td><img src="D.svg">
+                <img src="L.svg">
+                <img src="W.svg">
+                <img src="D.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Cystal Palace -->
+            <td align="left">13&ensp;<img src="t13.png" height="25" align="center">&ensp;Cystal Palace</td>
+            <td>22</td>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+            <td>31</td>
+            <td>34</td>
+            <td>-3</td>
+            <td>24</td>
+            <td><img src="L.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="W.svg">
+                <img src="L.svg"></td>
+        </tr>
+        <tr><!-- Brentford -->
+            <td align="left">14&ensp;<img src="t14.png" height="25" align="center">&ensp;Brentford</td>
+            <td>23</td>
+            <td>6</td>
+            <td>5</td>
+            <td>12</td>
+            <td>26</td>
+            <td>38</td>
+            <td>-12</td>
+            <td>23</td>
+            <td><img src="L.svg">
+                <img src="L.svg">
+                <img src="L.svg">
+                <img src="L.svg">
+                <img src="W.svg"></td>
+        </tr>
+        <tr><!-- Leeds United -->
+            <td align="left">15&ensp;<img src="t15.png" height="25" align="center">&ensp;Leeds United</td>
+            <td>21</td>
+            <td>5</td>
+            <td>7</td>
+            <td>9</td>
+            <td>24</td>
+            <td>40</td>
+            <td>-16</td>
+            <td>22</td>
+            <td><img src="L.svg">
+                <img src="W.svg">
+                <img src="W.svg">
+                <img src="L.svg">
+                <img src="L.svg"></td>
+        </tr>
+        <tr><!-- Everton -->
+            <td align="left">16&ensp;<img src="t16.png" height="25" align="center">&ensp;Everton</td>
+            <td>20</td>
+            <td>5</td>
+            <td>4</td>
+            <td>11</td>
+            <td>24</td>
+            <td>35</td>
+            <td>-11</td>
+            <td>19</td>
+            <td><img src="L.svg">
+                <img src="L.svg">
+                <img src="L.svg">
+                <img src="D.svg">
+                <img src="L.svg"></td>
+        </tr>
+        <tr><!-- Norwich City -->
+            <td align="left">17&ensp;<img src="t17.png" height="25" align="center">&ensp;Norwich City</td>
+            <td>22</td>
+            <td>4</td>
+            <td>4</td>
+            <td>14</td>
+            <td>13</td>
+            <td>45</td>
+            <td>-32</td>
+            <td>16</td>
+            <td><img src="W.svg">
+                <img src="W.svg">
+                <img src="L.svg">
+                <img src="L.svg">
+                <img src="L.svg"></td>
+        </tr>
+        <tr><!-- Newcastle -->
+            <td align="left">18&ensp;<img src="t18.png" height="25" align="center">&ensp;Newcastle</td>
+            <td>21</td>
+            <td>2</td>
+            <td>9</td>
+            <td>10</td>
+            <td>21</td>
+            <td>43</td>
+            <td>-22</td>
+            <td>15</td>
+            <td><img src="W.svg">
+                <img src="D.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="L.svg"></td>
+        </tr>
+        <tr><!-- Watford -->
+            <td align="left">19&ensp;<img src="t19.png" height="25" align="center">&ensp;Watford</td>
+            <td>20</td>
+            <td>4</td>
+            <td>2</td>
+            <td>14</td>
+            <td>23</td>
+            <td>40</td>
+            <td>-17</td>
+            <td>14</td>
+            <td><img src="L.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="L.svg">
+                <img src="L.svg"></td>
+        </tr>
+        <tr><!-- Burnley -->
+            <td align="left">20&ensp;<img src="t20.png" height="25" align="center">&ensp;Burnley</td>
+            <td>18</td>
+            <td>1</td>
+            <td>9</td>
+            <td>8</td>
+            <td>16</td>
+            <td>27</td>
+            <td>-11</td>
+            <td>12</td>
+            <td><img src="D.svg">
+                <img src="L.svg">
+                <img src="D.svg">
+                <img src="L.svg">
+                <img src="L.svg"></td>
+        </tr>
+    </table>
+    <div>
+        <p>
+            <strong>Last 5 matches</strong><br>
+        </p>    
+        <img src="W.svg"> Win<br>
+        <img src="D.svg"> Draw<br>
+        <img src="L.svg"> Loss<br>
+        
+    </div>
+</body>
+</html>
